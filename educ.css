@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+.header h2{
+    color: gold; text-align: center; margin-top: 1cm;
+}
+.header h1{
+    color: gold; text-align: center;
+    font-size: 2cm; margin-top: 1cm;
+}
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .pics .picno {
+    flex: 3 3 300px;
+    text-align: center;
+  }
+  .pics .picno img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 10px;
+    
+  }
+  .pics .picno figcaption {
+    margin-top: 10px;
+    font-style: bold;
+    font-size: 14px;
+    color: white;
+  }

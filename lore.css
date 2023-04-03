@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.header{
+    color: gold; 
+    text-align: center; 
+    background-image: url(liyue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+.header h2{
+    font-size: 1cm;
+     margin-top: 1cm;
+     margin-bottom: 0cm;
+    
+}
+.header h1{
+    font-size: 3cm;
+     margin-top: 1cm;
+
+    
+}
+.main-p{
+    color: white; 
+    text-align: center; 
+    font-size: 0.7cm;
+}

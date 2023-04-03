@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+.title{
+    
+    color: gold; 
+    text-align: center;
+    background-image: url(rr.jpg);
+    
+}
+.title h1{
+    font-size: 2cm; margin-top: 1cm;
+
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.img{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content:flex-start;
+    align-items: left;
+    
+}
+
+.image img {
+   max-width: 100%;
+   width: 8cm;
+   height: 8cm;
+   border-radius: 50%;
+}
+
+
+.des{
+    color: white;
+    font-size: 40px;
+    flex-direction: row;
+   
+   
+}
